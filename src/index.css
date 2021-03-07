@@ -2,3 +2,26 @@ body{
     background-color: #191919;
     color: #fff;
 }
+
+.message-box{
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+}
+.message-box div{
+    padding: 50px 0px;
+}
+
+.message-box input{
+     min-width: 300px !important;
+}
+
+.message-box > button {
+     align-self: center;
+}
+
+.display-message-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
